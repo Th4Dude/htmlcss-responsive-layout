@@ -32,6 +32,7 @@ header{
 
 .cont-head{
     justify-content: space-between;
+    align-items: center;
 }
 
 .links{
@@ -39,11 +40,33 @@ header{
     list-style-type: none;
 }
 
+.font-aws{
+    color: white;
+    font-size: 1.875rem;
+}
+
+img{
+    width: 100%;
+}
+
 @media screen and (min-width: 992px) {
     
     .links{
        display: block;
        display: flex;
+   }
+
+   li{
+    padding: 0 .9375rem;
+    color: white;
+   }
+
+   nav > li:last-child{
+    height: 1.50rem;
+    color: black;
+    background-color: white;
+    border-radius: .625rem;
+    align-items: center;
    }
 
    .font-aws{
@@ -58,7 +81,9 @@ header{
 
 /* Section-01 */
 
-
+.section01{
+    padding: 3.125rem 0 ;
+}
 
 .container-main-01{
     display: flex;
@@ -68,12 +93,30 @@ header{
 
 .box{
     background-color: #b5ddff;
-    padding: 1.875rem;
     width: 100%;
     text-align: center;
     border-radius: 30px;
-    margin-top: 10px;   
+    margin-top: 10px;  
+    padding: 0 1.125rem; 
+    padding-top: 1rem ;
 }
+
+.butt{
+    height: 1.25rem;
+    width: 200px;
+    background-color:#0084fd ;
+}
+
+.box h2{
+    color: #0084fd;
+    padding-bottom: 1.25rem;
+}
+
+.box p{
+    color: #5a6e7f;
+    padding-bottom: 1.25rem;
+}
+
 
 @media screen and (min-width: 768px) {
     .box{
@@ -124,7 +167,7 @@ header{
     margin:20px 0
 }
 
-.section-03 > div:first-child{
+.section03 > div:first-child{
     text-align: center;
 }
 
@@ -139,7 +182,7 @@ header{
 
 /* Section-04 */
 
-.section-04{
+.section04{
     background-color: #9792e4;
     
 }
@@ -150,14 +193,6 @@ header{
     border-radius: 20px;
 }
 
-@media screen and (min-width:992px) {
-    .box-section04{
-        display: flex;
-        flex-wrap: wrap;
-        width: calc(100% /3);
-    }
-}
-
 @media screen and (min-width:768px) {
     .box-section04{
         display: flex;
@@ -166,4 +201,20 @@ header{
     }
 }
 
+@media screen and (min-width:992px) {
+    .box-section04{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% /3);
+    }
+}
+
 /* Section-04 */
+
+/* Section-05 */
+
+@media screen and (min-width:768px) {
+    .box-section05{
+        display: flex;
+    }
+}
