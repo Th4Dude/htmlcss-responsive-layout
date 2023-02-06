@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+    background-color: #0084fd;
+    padding: 2.5rem;
+}
+
+.cont-head{
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.links{
+    display: none;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 992px  ) {
+    
+     .links{
+        display: block;
+        display: flex;
+    }
+
+    .font-aws{
+        display: none;
+    }
+}
+
+/* Header */
+
+
+/* Main */
+
+
+.container-main-01{
+    
+}
+
+.background{
+    background-color: #b5ddff;
+}
+
+
