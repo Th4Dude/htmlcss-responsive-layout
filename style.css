@@ -147,14 +147,7 @@ img{
     .img{
         width: 50%;
     }
-
-
-
-    
 }
-
-
-
 
 /* Section-01 */
 
@@ -168,7 +161,8 @@ img{
 .section02 > div:last-child{
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
+    padding-bottom: 25px;
+    margin: 30px 10px;
 }
 
 @media screen and (min-width:992px) {
@@ -183,7 +177,11 @@ img{
 
 /* Section-03 */
 
-
+.testimonials h1{
+    color: #9792e4;
+    padding: 20px 0;
+    
+}
 .box-section03{
     background-color: #9792e4;
     border-radius: 20px;
@@ -193,6 +191,30 @@ img{
 
 .section03 > div:first-child{
     text-align: center;
+}
+
+.background-img img{
+    background-color: white;
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 50%;
+}
+.background-img{
+    padding-top: 20px;
+}
+
+.img-sect03{
+    width: 50%;
+}
+
+.box-section03 p {
+    color: white;
+    line-height: 1.5;
+}
+
+.box-section03 h4 {
+    color: white;
+    padding-top: 15px;
 }
 
 @media screen and (min-width:768px) {
@@ -208,14 +230,51 @@ img{
 
 .section04{
     background-color: #9792e4;
-    
+}
+
+.title-sect04{
+    font-size: 40px;
+    color: white;
+    text-align: center;
 }
 
 .box-section04{
     background-color: white;
     width: 80%;
     border-radius: 20px;
+    margin: 20px 0;
+    padding: 15px;
 }
+
+.box-section04 h3{
+    font-size: 50px;
+    color: #9792e4;
+}
+
+.box-section04 h4{
+    line-height: 1;
+    color: #9792e4;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.box-section04 p{
+    font-size: 40px;
+    color: #818181;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.butt-04{
+    width: 40%;
+    border-radius: 15px;
+    background-color:#9792e4 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 
 @media screen and (min-width:768px) {
     .box-section04{
