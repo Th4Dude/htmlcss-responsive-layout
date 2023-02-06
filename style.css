@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,18 +6,19 @@
 
 /* Common */
 
-.container{
+.container {
     /* padding: 0 1.5rem; */
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.wrap{
-     flex-wrap: wrap;
+.wrap {
+    flex-wrap: wrap;
 }
-.justify-content{
+
+.justify-content {
     justify-content: center;
 }
 
@@ -25,53 +26,53 @@
 
 /* Header */
 
-header{
+header {
     background-color: #0084fd;
     padding: 2.5rem;
 }
 
-.cont-head{
+.cont-head {
     justify-content: space-between;
     align-items: center;
 }
 
-.links{
+.links {
     display: none;
     list-style-type: none;
 }
 
-.font-aws{
+.font-aws {
     color: white;
     font-size: 1.875rem;
 }
 
-img{
+img {
     width: 100%;
 }
 
 @media screen and (min-width: 992px) {
-    
-    .links{
-       display: block;
-       display: flex;
-   }
 
-   li{
-    padding: 0 .9375rem;
-    color: white;
-   }
+    .links {
+        display: block;
+        display: flex;
+    }
 
-   nav > li:last-child{
-    height: 1.50rem;
-    color: black;
-    background-color: white;
-    border-radius: .625rem;
-    align-items: center;
-   }
+    li {
+        padding: 0 .9375rem;
+        color: white;
+    }
 
-   .font-aws{
-       display: none;
-   }
+    nav>li:last-child {
+        height: 1.50rem;
+        color: black;
+        background-color: white;
+        border-radius: .625rem;
+        align-items: center;
+    }
+
+    .font-aws {
+        display: none;
+    }
 }
 
 /* Header */
@@ -81,45 +82,45 @@ img{
 
 /* Section-01 */
 
-.section01{
-    padding: 3.125rem 1.25rem ;
+.section01 {
+    padding: 3.125rem 1.25rem;
 }
 
-.container-main-01{
+.container-main-01 {
     display: flex;
     flex-wrap: wrap;
     padding: 1.875rem;
 }
 
-.box{
+.box {
     background-color: #b5ddff;
     width: 100%;
     text-align: center;
     border-radius: 30px;
-    margin-top: 10px;  
-    padding: 0 1.125rem; 
-    padding-top: 1rem ;
+    margin-top: 10px;
+    padding: 0 1.125rem;
+    padding-top: 1rem;
 }
 
-.butt{
+.butt {
     height: 1.25rem;
     width: 22rem;
     border-radius: 15px;
-    background-color:#0084fd ;
+    background-color: #0084fd;
 }
 
-.box h2{
+.box h2 {
     color: #0084fd;
     padding-bottom: 1.25rem;
 }
 
-.box p{
+.box p {
     color: #5a6e7f;
     padding-bottom: 1.25rem;
     line-height: 1.5;
 }
 
-.awesome{
+.awesome {
     font-size: 50px;
     color: #0084fd;
     padding-bottom: 10px;
@@ -127,24 +128,26 @@ img{
 
 
 @media screen and (min-width: 768px) {
-    .box{
+    .box {
         width: calc(100% /3 - 20px);
         background-color: #b5ddff;
         border-radius: 20px;
         margin: 10px 10px;
     }
-    .box:first-child{
+
+    .box:first-child {
         width: calc((100% /3 - 10px) *2);
         display: flex;
         flex-wrap: wrap;
     }
-    .img{
+
+    .img {
         width: 50%;
     }
 }
 
 @media screen and (min-width:992px) {
-    .img{
+    .img {
         width: 50%;
     }
 }
@@ -153,26 +156,27 @@ img{
 
 /* Section-02 */
 
-.section02{
+.section02 {
     background-color: #9792e4;
     margin-top: 2.1875rem;
 }
+
 /* .prova{ */
 /*     margin-bottom: 20px; */
 /* } */
-.color-white{
+.color-white {
     color: white;
     padding-top: 2.5rem;
     text-align: center;
 }
 
-.color-black{
+.color-black {
     color: black;
     text-align: center;
     padding-bottom: 20px;
 }
 
-.section02 > div:last-child{
+.section02>div:last-child {
     background-color: white;
     border-radius: 20px;
     padding-bottom: 25px;
@@ -180,7 +184,7 @@ img{
 }
 
 @media screen and (min-width:992px) {
-    .section02{
+    .section02 {
         display: flex;
         justify-content: end;
     }
@@ -191,37 +195,39 @@ img{
 
 /* Section-03 */
 
-.section03{
+.section03 {
     padding: 0 1.25rem;
 }
 
-.testimonials h1{
+.testimonials h1 {
     color: #9792e4;
     padding: 20px 0;
-    
+
 }
-.box-section03{
+
+.box-section03 {
     background-color: #9792e4;
     border-radius: 20px;
     text-align: center;
-    margin:20px 0
+    margin: 20px 0
 }
 
-.section03 > div:first-child{
+.section03>div:first-child {
     text-align: center;
 }
 
-.background-img img{
+.background-img img {
     background-color: white;
     height: 12.5rem;
     width: 12.5rem;
     border-radius: 50%;
 }
-.background-img{
+
+.background-img {
     padding-top: 20px;
 }
 
-.img-sect03{
+.img-sect03 {
     width: 50%;
 }
 
@@ -236,7 +242,7 @@ img{
 }
 
 @media screen and (min-width:768px) {
-    .box-section03{
+    .box-section03 {
         display: flex;
     }
 }
@@ -246,17 +252,17 @@ img{
 
 /* Section-04 */
 
-.section04{
+.section04 {
     background-color: #9792e4;
 }
 
-.title-sect04{
+.title-sect04 {
     font-size: 40px;
     color: white;
     text-align: center;
 }
 
-.box-section04{
+.box-section04 {
     background-color: white;
     width: 80%;
     border-radius: 20px;
@@ -264,29 +270,29 @@ img{
     padding: 15px;
 }
 
-.box-section04 h3{
+.box-section04 h3 {
     font-size: 50px;
     color: #9792e4;
 }
 
-.box-section04 h4{
+.box-section04 h4 {
     line-height: 1;
     color: #9792e4;
     font-size: 18px;
     padding: 15px 0;
 }
 
-.box-section04 p{
+.box-section04 p {
     font-size: 40px;
     color: #818181;
     font-size: 18px;
     padding-bottom: 10px;
 }
 
-.butt-04{
+.butt-04 {
     width: 40%;
     border-radius: 15px;
-    background-color:#9792e4 ;
+    background-color: #9792e4;
     color: white;
     text-align: center;
     padding: 10px;
@@ -295,7 +301,7 @@ img{
 
 
 @media screen and (min-width:768px) {
-    .box-section04{
+    .box-section04 {
         display: flex;
         flex-wrap: wrap;
         width: calc(100% /2 - 2.5rem);
@@ -304,7 +310,7 @@ img{
 }
 
 @media screen and (min-width:992px) {
-    .box-section04{
+    .box-section04 {
         display: flex;
         flex-wrap: wrap;
         width: calc(100% /3 - 40px);
@@ -315,44 +321,44 @@ img{
 
 /* Section-05 */
 
-.box-section05{
+.box-section05 {
     padding: 1.5625rem;
-    
+
 }
 
-.box-section05 h3{
+.box-section05 h3 {
     color: #9792e4;
     font-size: 40px;
     padding: 15px 0;
 }
 
-.box-section05 p{
-    line-height: 2;   
+.box-section05 p {
+    line-height: 2;
 }
 
-.box-section05 h2{
+.box-section05 h2 {
     color: #9792e4;
     padding: 15px 0;
 }
 
-.img-sect05{
+.img-sect05 {
     width: 100%;
     border-radius: 50%;
     height: 12.5rem;
     width: 12.5rem;
 }
 
-.butt-05{
+.butt-05 {
     width: 100%;
     border-radius: 15px;
-    background-color:#9792e4 ;
+    background-color: #9792e4;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
 @media screen and (min-width:768px) {
-    .box-section05{
+    .box-section05 {
         display: flex;
     }
 }
@@ -361,50 +367,50 @@ img{
 
 /* Section-06 */
 
-.section06{
-    background-color:#9792e4 ;
+.section06 {
+    background-color: #9792e4;
     padding: 3.125rem 1.25rem;
 }
 
-.box-section06{
+.box-section06 {
     text-align: center;
 }
 
-.box-section06 h3{
-color: #cbc9f1;
-padding-bottom: 30px;
+.box-section06 h3 {
+    color: #cbc9f1;
+    padding-bottom: 30px;
 }
 
-.box-section06 h2{
+.box-section06 h2 {
     color: white;
     font-size: 30px;
     padding-bottom: 30px;
 }
 
-.box-section06 h1{
+.box-section06 h1 {
     font-size: 50px;
     color: #fdc15f;
     padding-bottom: 30px;
 }
 
-.box-section06 p{
+.box-section06 p {
     line-height: 2;
     color: white;
     padding-bottom: 30px;
 }
 
-.box-section06 h6{
+.box-section06 h6 {
     line-height: 2;
     color: lightgray;
     padding-bottom: 60px;
 }
 
 
-.butt-06{
+.butt-06 {
     width: 30%;
     height: 20px;
     border-radius: 10px;
-    background-color:white ;
+    background-color: white;
     color: #9792e4;
     text-align: center;
     align-items: center;
@@ -413,3 +419,23 @@ padding-bottom: 30px;
 }
 
 /* Section-06 */
+
+/* Main */
+
+/* Section-07 */
+
+.section07 {
+    background-color: #333333;
+}
+
+.section07 p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.section07 h6 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
