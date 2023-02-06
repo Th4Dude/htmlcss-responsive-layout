@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-
-
 /* Common */
-
 
 .container{
     padding: 0 2.5rem;
@@ -26,9 +23,6 @@
 
 /* Common */
 
-
-
-
 /* Header */
 
 header{
@@ -45,7 +39,6 @@ header{
     list-style-type: none;
 }
 
-
 @media screen and (min-width: 992px) {
     
     .links{
@@ -57,7 +50,6 @@ header{
        display: none;
    }
 }
-
 
 /* Header */
 
@@ -72,7 +64,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     padding: 1.875rem;
-
 }
 
 .box{
@@ -81,8 +72,7 @@ header{
     width: 100%;
     text-align: center;
     border-radius: 30px;
-    margin-top: 10px;
-    
+    margin-top: 10px;   
 }
 
 @media screen and (min-width: 768px) {
@@ -99,16 +89,16 @@ header{
     }
 }
 
-
 /* Section-01 */
 
+/* Section-02 */
 
 .section02{
     background-color: #9792e4;
     margin-top: 2.1875rem;
 }
 
-.section02 > :last-child{
+.section02 > div:last-child{
     background-color: white;
     border-radius: 20px;
     padding: 20px;
@@ -120,3 +110,60 @@ header{
         justify-content: end;
     }
 }
+
+
+/* Section-02 */
+
+/* Section-03 */
+
+
+.box-section03{
+    background-color: #9792e4;
+    border-radius: 20px;
+    text-align: center;
+    margin:20px 0
+}
+
+.section-03 > div:first-child{
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .box-section03{
+        display: flex;
+    }
+}
+
+
+/* Section-03 */
+
+/* Section-04 */
+
+.section-04{
+    background-color: #9792e4;
+    
+}
+
+.box-section04{
+    background-color: white;
+    width: 80%;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:992px) {
+    .box-section04{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% /3);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .box-section04{
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% /2);
+    }
+}
+
+/* Section-04 */
