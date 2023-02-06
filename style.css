@@ -7,7 +7,7 @@
 /* Common */
 
 .container{
-    padding: 0 1.5rem;
+    /* padding: 0 1.5rem; */
 }
 
 .flex{
@@ -82,7 +82,7 @@ img{
 /* Section-01 */
 
 .section01{
-    padding: 3.125rem 0 ;
+    padding: 3.125rem 1.25rem ;
 }
 
 .container-main-01{
@@ -157,12 +157,26 @@ img{
     background-color: #9792e4;
     margin-top: 2.1875rem;
 }
+/* .prova{ */
+/*     margin-bottom: 20px; */
+/* } */
+.color-white{
+    color: white;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.color-black{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 .section02 > div:last-child{
     background-color: white;
     border-radius: 20px;
     padding-bottom: 25px;
-    margin: 30px 10px;
+    margin: 30px 50px;
 }
 
 @media screen and (min-width:992px) {
@@ -176,6 +190,10 @@ img{
 /* Section-02 */
 
 /* Section-03 */
+
+.section03{
+    padding: 0 1.25rem;
+}
 
 .testimonials h1{
     color: #9792e4;
@@ -280,7 +298,8 @@ img{
     .box-section04{
         display: flex;
         flex-wrap: wrap;
-        width: calc(100% /2);
+        width: calc(100% /2 - 2.5rem);
+        margin: 20px 20px;
     }
 }
 
@@ -288,7 +307,7 @@ img{
     .box-section04{
         display: flex;
         flex-wrap: wrap;
-        width: calc(100% /3);
+        width: calc(100% /3 - 40px);
     }
 }
 
@@ -296,8 +315,101 @@ img{
 
 /* Section-05 */
 
+.box-section05{
+    padding: 1.5625rem;
+    
+}
+
+.box-section05 h3{
+    color: #9792e4;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+.box-section05 p{
+    line-height: 2;   
+}
+
+.box-section05 h2{
+    color: #9792e4;
+    padding: 15px 0;
+}
+
+.img-sect05{
+    width: 100%;
+    border-radius: 50%;
+    height: 12.5rem;
+    width: 12.5rem;
+}
+
+.butt-05{
+    width: 100%;
+    border-radius: 15px;
+    background-color:#9792e4 ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 @media screen and (min-width:768px) {
     .box-section05{
         display: flex;
     }
 }
+
+/* Section-05 */
+
+/* Section-06 */
+
+.section06{
+    background-color:#9792e4 ;
+    padding: 3.125rem 1.25rem;
+}
+
+.box-section06{
+    text-align: center;
+}
+
+.box-section06 h3{
+color: #cbc9f1;
+padding-bottom: 30px;
+}
+
+.box-section06 h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.box-section06 h1{
+    font-size: 50px;
+    color: #fdc15f;
+    padding-bottom: 30px;
+}
+
+.box-section06 p{
+    line-height: 2;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.box-section06 h6{
+    line-height: 2;
+    color: lightgray;
+    padding-bottom: 60px;
+}
+
+
+.butt-06{
+    width: 30%;
+    height: 20px;
+    border-radius: 10px;
+    background-color:white ;
+    color: #9792e4;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+/* Section-06 */
